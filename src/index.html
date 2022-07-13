@@ -3,12 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+   
   </head>
   <body>
-    <header><h1>HOLA</h1></header>
-    <main></main>
-    <footer></footer>
+    <section id="container">
+      <center>
+    <header><h1>TERMINAR COMPRA</h1></header>
+    <p>Ingrese su Nombre</p>
+    <input type="text" id= "name" placeholder="Marissa Zavala">
+   
+ 
+    <p>Ingrese su número de tarjeta</p>
+    <label for="cardNumber"></label>
+      <input type="text" id= "cardNumber" maxlength="16" autocomplete="off" placeholder="1234 5678 9101" required autofocus>
+     
+      <br><br>
+        <input type="button" value="PAGAR" id="button" ><br>
+    
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
